@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "94745e36-753a-494a-8b74-c2969af02ce0",
+		"name": "Collection 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ALL GET REQ",
+			"item": [
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users?page=2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://reqres.in/api/users/23",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/unknown/2",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"unknown",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://api2.binance.com/api/v3/ticker/24hr",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api2.binance.com/api/v3/ticker/24hr",
+							"protocol": "https",
+							"host": [
+								"api2",
+								"binance",
+								"com"
+							],
+							"path": [
+								"api",
+								"v3",
+								"ticker",
+								"24hr"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita",
+							"protocol": "https",
+							"host": [
+								"www",
+								"thecocktaildb",
+								"com"
+							],
+							"path": [
+								"api",
+								"json",
+								"v1",
+								"1",
+								"search.php"
+							],
+							"query": [
+								{
+									"key": "s",
+									"value": "margarita"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://reqbin.com/sample/post/json",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "POST /sample/post/json HTTP/1.1\r\nHost: reqbin.com\r\nContent-Type: application/json\r\nContent-Length: 0"
+						},
+						"url": {
+							"raw": "https://reqbin.com/sample/post/json",
+							"protocol": "https",
+							"host": [
+								"reqbin",
+								"com"
+							],
+							"path": [
+								"sample",
+								"post",
+								"json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://reqbin.com/sample/put/json",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "PUT /sample/post/json HTTP/1.1\r\nHost: reqbin.com\r\nContent-Type: application/json\r\nContent-Length: 0"
+						},
+						"url": {
+							"raw": "https://reqbin.com/sample/put/json",
+							"protocol": "https",
+							"host": [
+								"reqbin",
+								"com"
+							],
+							"path": [
+								"sample",
+								"put",
+								"json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://reqbin.com/sample/delete/json",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "DELETE /sample/delete/json HTTP/1.1\r\nHost: reqbin.com"
+						},
+						"url": {
+							"raw": "https://reqbin.com/sample/delete/json",
+							"protocol": "https",
+							"host": [
+								"reqbin",
+								"com"
+							],
+							"path": [
+								"sample",
+								"delete",
+								"json"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://reqbin.com/sample/patch/json",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "PATCH /sample/patch/json HTTP/1.1\r\nHost: reqbin.com\r\nContent-Type: application/json\r\nContent-Length: 0"
+						},
+						"url": {
+							"raw": "https://reqbin.com/sample/patch/json",
+							"protocol": "https",
+							"host": [
+								"reqbin",
+								"com"
+							],
+							"path": [
+								"sample",
+								"patch",
+								"json"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://reqres.in/api/unknown",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"unknown"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
